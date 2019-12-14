@@ -1,0 +1,44 @@
+{
+  "name": "@empirica/random-dot-kinematogram",
+  "version": "1.0.0",
+  "description": "React component of a Random Dot Kinematogram for the Empirica experiment platform.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-file index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/empiricaly/random-dot-kinematogram.git"
+  },
+  "keywords": [
+    "empirica",
+    "empiricaly",
+    "stimulus",
+    "dots",
+    "p5",
+    "react"
+  ],
+  "author": "Nicolas Paton <nicolas.paton@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/empiricaly/random-dot-kinematogram/issues"
+  },
+  "homepage": "https://github.com/empiricaly/random-dot-kinematogram#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4"
+  },
+  "dependencies": {
+    "p5": "^0.10.2",
+    "prop-types": "^15.7.2",
+    "react-p5-wrapper": "^2.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
