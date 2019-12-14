@@ -1,6 +1,6 @@
 {
   "name": "@empirica/random-dot-kinematogram",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component of a Random Dot Kinematogram for the Empirica experiment platform.",
   "main": "index.js",
   "scripts": {

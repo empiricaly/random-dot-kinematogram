@@ -10,7 +10,7 @@ coherent direction, and the remaining percentage of dots are designated as
 
 ## Usage
 
-Simply add the `<DotStimulus>` component to your React tree.
+Simply add the `<RDK>` component to your React tree.
 
 ```js
 import RDK from "@empirica/random-dot-kinematogram";
@@ -20,7 +20,7 @@ import RDK from "@empirica/random-dot-kinematogram";
 <RDK coherence={0.5} direction="right" />;
 ```
 
-DotStimulus expects 2 props:
+RDK expects 2 props:
 
 - direction: "right" or "left" for the direction the signal
 - coherence: a value between 0 (incoherent) and 1 (coherent) for the noise
